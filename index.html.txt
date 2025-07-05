@@ -1,87 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Big Map Obby</title>
+  <meta charset="UTF-8">
+  <title>Big Map Obby - Official Website</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #111;
-      color: #eee;
-      text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
       margin: 0;
       padding: 0;
+      color: #333;
     }
-    h1 {
-      margin-top: 30px;
-      font-size: 2.5em;
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
     }
-    p {
-      max-width: 600px;
-      margin: 10px auto 30px;
-      font-size: 1.1em;
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 15px;
     }
-    .play-button {
+    .button {
       display: inline-block;
-      padding: 12px 25px;
-      background-color: #28a745;
-      color: #fff;
+      background: #4CAF50;
+      color: white;
+      padding: 12px 24px;
       text-decoration: none;
       border-radius: 4px;
-      font-weight: bold;
-      margin-bottom: 40px;
-      transition: background 0.3s;
+      margin-top: 10px;
     }
-    .play-button:hover {
-      background-color: #218838;
+    .button:hover {
+      background: #45a049;
     }
     h2 {
-      font-size: 1.8em;
-      margin-top: 50px;
+      margin-top: 40px;
+      color: #444;
     }
-    img {
-      max-width: 90%;
-      margin: 20px auto;
+    .gallery img {
+      width: 100%;
+      max-width: 500px;
+      border: 2px solid #ddd;
+      border-radius: 4px;
+      margin: 10px auto;
       display: block;
-      border: 3px solid #333;
-      border-radius: 8px;
     }
     footer {
-      margin-top: 50px;
+      text-align: center;
       padding: 20px;
-      font-size: 0.9em;
+      background: #333;
       color: #aaa;
-    }
-    a {
-      color: #0af;
+      margin-top: 40px;
     }
   </style>
 </head>
 <body>
+
+<header>
   <h1>Big Map Obby</h1>
-  <p>Welcome to the official website of Big Map Obby—play the biggest and most exciting Roblox obby ever created!</p>
-  <a class="play-button" href="https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY" target="_blank">▶️ Play Now</a>
+  <p>The Biggest Roblox Obby with Enhanced Graphics!</p>
+</header>
+
+<div class="container">
+  <a class="button" href="https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY" target="_blank">▶️ Play Now</a>
+
+  <h2>About the Game</h2>
+  <p>Big Map Obby offers the ultimate parkour experience in Roblox. Explore massive maps, conquer challenging obstacles, and enjoy high-quality visuals.</p>
 
   <h2>Gallery</h2>
-  <p>Click an image to see it full size. You can add more screenshots later easily.</p>
+  <div class="gallery">
+    <!-- Example Screenshot 1 -->
+    <a href="images/screenshot1.png" target="_blank">
+      <img src="images/screenshot1.png" alt="Screenshot 1">
+    </a>
 
-  <!-- Example image 1 -->
-  <a href="images/screenshot1.png" target="_blank">
-    <img src="images/screenshot1.png" alt="Screenshot 1">
-  </a>
+    <!-- Example Screenshot 2 -->
+    <a href="images/screenshot2.png" target="_blank">
+      <img src="images/screenshot2.png" alt="Screenshot 2">
+    </a>
 
-  <!-- Example image 2 -->
-  <a href="images/screenshot2.png" target="_blank">
-    <img src="images/screenshot2.png" alt="Screenshot 2">
-  </a>
+    <!-- To add more images, copy-paste one of these blocks and change the filename -->
+  </div>
+</div>
 
-  <!-- To add more images later, copy-paste this block and change the filename:
-  <a href="images/NEWFILENAME.png" target="_blank">
-    <img src="images/NEWFILENAME.png" alt="New Screenshot">
-  </a>
-  -->
+<footer>
+  &copy; 2025 Big Map Obby. All rights reserved.
+</footer>
 
-  <footer>
-    &copy; 2025 Big Map Obby. All rights reserved.
-  </footer>
 </body>
 </html>
