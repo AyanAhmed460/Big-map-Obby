@@ -36,5 +36,3 @@ Open an **Issue** on this repo to send your ideas or bug reports!
 ---
 
 © 2025 Big Map Obby – Powered by GitHub Pages.
-
-Check out our game using the link above. We would love to hear your feedback on your experience and any changes you would suggest. Please also share your thoughts on Roblox and rate the game to let us know if you enjoyed it!
