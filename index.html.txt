@@ -2,91 +2,48 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Big Map Obby - Official Website</title>
+  <title>Big Map Obby</title>
   <style>
     body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: #f4f4f4;
-      margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
       color: #333;
-    }
-    header {
-      background: #4CAF50;
-      color: white;
+      max-width: 800px;
+      margin: auto;
       padding: 20px;
-      text-align: center;
     }
-    .container {
-      max-width: 900px;
-      margin: 20px auto;
-      padding: 0 15px;
+    h1 {
+      color: #007bff;
     }
-    .button {
-      display: inline-block;
-      background: #4CAF50;
-      color: white;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 4px;
-      margin-top: 10px;
-    }
-    .button:hover {
-      background: #45a049;
-    }
-    h2 {
+    .footer {
       margin-top: 40px;
-      color: #444;
-    }
-    .gallery img {
-      width: 100%;
-      max-width: 500px;
-      border: 2px solid #ddd;
-      border-radius: 4px;
-      margin: 10px auto;
-      display: block;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #333;
-      color: #aaa;
-      margin-top: 40px;
+      font-size: 0.9em;
+      color: #777;
     }
   </style>
 </head>
 <body>
-
-<header>
   <h1>Big Map Obby</h1>
-  <p>The Biggest Roblox Obby with Enhanced Graphics!</p>
-</header>
+  <p>Welcome to the official website of Big Map Obby, my Roblox game!</p>
 
-<div class="container">
-  <a class="button" href="https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY" target="_blank">▶️ Play Now</a>
+  <h2>About</h2>
+  <p>This game features a huge map, challenging parkour, and beautiful graphics.</p>
 
-  <h2>About the Game</h2>
-  <p>Big Map Obby offers the ultimate parkour experience in Roblox. Explore massive maps, conquer challenging obstacles, and enjoy high-quality visuals.</p>
+  <h2>Latest Updates</h2>
+  <ul>
+    <li>Added 10 new stages</li>
+    <li>Improved performance</li>
+    <li>New badges and rewards</li>
+  </ul>
 
-  <h2>Gallery</h2>
-  <div class="gallery">
-    <!-- Example Screenshot 1 -->
-    <a href="images/screenshot1.png" target="_blank">
-      <img src="images/screenshot1.png" alt="Screenshot 1">
-    </a>
+  <h2>Feedback</h2>
+  <p>
+    <strong>Check out our game using the link above. We would love to hear your feedback on your experience and any changes you would suggest. Please also share your thoughts on Roblox and rate the game to let us know if you enjoyed it!</strong>
+  </p>
 
-    <!-- Example Screenshot 2 -->
-    <a href="images/screenshot2.png" target="_blank">
-      <img src="images/screenshot2.png" alt="Screenshot 2">
-    </a>
-
-    <!-- To add more images, copy-paste one of these blocks and change the filename -->
+  <div class="footer">
+    &copy; 2025 Big Map Obby. All rights reserved.
   </div>
-</div>
-
-<footer>
-  &copy; 2025 Big Map Obby. All rights reserved.
-</footer>
-
 </body>
 </html>
+
