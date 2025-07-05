@@ -1,11 +1,38 @@
-# Big Map Obby Website
+# Big Map Obby
 
-This is the official website for Big Map Obby, the biggest Roblox obby with enhanced graphics and a huge map.
+Welcome to the official GitHub page for **Big Map Obby** – a massive, high-graphics parkour game on Roblox!
 
-[▶️ Play the game on Roblox](https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY)
+🎮 **Play Now:**  
+👉 [Click here to play Big Map Obby](https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY)
 
-🖼️ To add new screenshots:
-1. Upload the image to the `images` folder.
-2. Edit `index.html` and copy-paste one of the image blocks, changing the filename.
+---
 
-This site is hosted with GitHub Pages.
+## 📷 Screenshot Gallery
+
+To see screenshots, go to our [official website](https://yourusername.github.io/bigmapobby) hosted with GitHub Pages.
+
+You can also check out gameplay previews in the `images/` folder.
+
+---
+
+## 🧩 Features
+
+- Huge and detailed parkour map
+- Enhanced graphics for PC and mobile
+- Sprint, health, double jump, and more!
+- Smooth gameplay across devices
+
+---
+
+## 🛠️ How to Edit This Website
+
+
+---
+
+## 💬 Feedback & Ideas
+
+Open an **Issue** on this repo to send your ideas or bug reports!
+
+---
+
+© 2025 Big Map Obby – Powered by GitHub Pages.
