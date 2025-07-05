@@ -37,13 +37,12 @@
   </ul>
 
   <h2>Feedback</h2>
-  <p>
-    <strong>Check out our game using the link above. We would love to hear your feedback on your experience and any changes you would suggest. Please also share your thoughts on Roblox and rate the game to let us know if you enjoyed it!</strong>
-  </p>
+  <p><strong>
+    Check out our game using the link above. We would love to hear your feedback on your experience and any changes you would suggest. Please also share your thoughts on Roblox and rate the game to let us know if you enjoyed it!
+  </strong></p>
 
   <div class="footer">
     &copy; 2025 Big Map Obby. All rights reserved.
   </div>
 </body>
 </html>
-
