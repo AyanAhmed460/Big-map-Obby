@@ -3,13 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Test Play Button</title>
+  <title>Big Map Obby</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
       text-align: center;
-      padding: 50px;
-      background: #f5f5f5;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
     }
     .button {
       display: inline-block;
@@ -19,16 +30,119 @@
       border-radius: 6px;
       text-decoration: none;
       font-size: 1.2em;
+      margin-top: 15px;
     }
     .button:hover {
       background-color: #218838;
     }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+    .section {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #007bff;
+      margin-top: 0;
+    }
+    p, li {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+      padding: 20px;
+      background-color: #f0f0f0;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 1.5em;
+      }
+      .button {
+        font-size: 1em;
+        padding: 12px 20px;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Big Map Obby</h1>
-  <a class="button" href="https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY" target="_blank">
-    ▶️ Play Now on Roblox
-  </a>
+
+  <header>
+    <h1>Big Map Obby</h1>
+    <p>Official Game Website - Works on PC and Mobile</p>
+    <a class="button" href="https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY" target="_blank">
+      ▶️ Play Now on Roblox
+    </a>
+  </header>
+
+  <div class="container">
+    <div class="section">
+      <h2>About the Game</h2>
+      <p>Big Map Obby is a massive Roblox obstacle course with enhanced graphics, sprinting, double jumps, and compatibility with both PC and mobile devices.</p>
+    </div>
+
+    <div class="section">
+      <h2>Latest Updates</h2>
+      <ul>
+        <li>Added 10 new stages</li>
+        <li>Improved performance and mobile support</li>
+        <li>New badges and enhanced textures</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Feedback</h2>
+      <p><strong>
+        Check out our game using the link above. We would love to hear your feedback on your experience and any changes you would suggest. Please also share your thoughts on Roblox and rate the game to let us know if you enjoyed it!
+      </strong></p>
+    </div>
+
+    <div class="section">
+      <h2>Papa's Burgeria Game Information</h2>
+      <ul>
+        <li><strong>Name:</strong> Papa's Burgeria</li>
+        <li><strong>Developer:</strong> Flipline Studios</li>
+        <li><strong>Size:</strong> 640 x 480</li>
+        <li><strong>Category:</strong> Strategy</li>
+        <li><strong>Version:</strong> 2.0</li>
+        <li><strong>Updated:</strong> 03/09/14</li>
+        <li><strong>Includes:</strong> Major bug fixes and removal of all Mochi Ads</li>
+      </ul>
+
+      <h3>Description</h3>
+      <p>
+        In this sequel to the award-winning hit game "Papa's Pizzeria", you're headed back to the kitchen to run Papa Louie's new burger shop! You’ll have to take orders, grill burgers, add toppings, and serve the sandwiches to the waiting customers.
+      </p>
+
+      <h3>Instructions</h3>
+      <p>Use your mouse and follow the in-game instructions.</p>
+
+      <p><a href="http://www.flipline.com/games/papasburgeria/screenshots.html" target="_blank">View Screenshots</a></p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Big Map Obby. All rights reserved.
+  </footer>
+
 </body>
 </html>
