@@ -29,6 +29,21 @@
       font-size: 2em;
     }
 
+    .button {
+      display: inline-block;
+      background-color: #28a745;
+      color: white;
+      padding: 12px 24px;
+      margin-top: 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    .button:hover {
+      background-color: #218838;
+    }
+
     .container {
       max-width: 960px;
       margin: auto;
@@ -87,6 +102,9 @@
   <header>
     <h1>Big Map Obby</h1>
     <p>Official Game Website - Works on PC and Mobile</p>
+    <a class="button" href="https://www.roblox.com/games/140206989905247/UPDATE-HIGH-ENHANCED-GRAPHICS-BIG-MAP-OBBY" target="_blank">
+      ▶️ Play Now on Roblox
+    </a>
   </header>
 
   <div class="container">
